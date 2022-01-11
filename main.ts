@@ -4,6 +4,8 @@ input.onButtonPressed(Button.A, function () {
         nbre_depart += -1
         basic.pause(1000)
     }
+    basic.showNumber(nbre_depart)
+    basic.pause(1000)
     basic.clearScreen()
     nbre_depart = 10
 })
